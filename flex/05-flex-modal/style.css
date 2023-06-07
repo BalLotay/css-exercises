@@ -22,6 +22,32 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.modal {
+  display: flex;
+  padding: 15px;
+  gap: 1rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.right-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  flex: 0 0 auto;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
